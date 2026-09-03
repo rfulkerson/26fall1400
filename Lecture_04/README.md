@@ -4,7 +4,7 @@
 
 ## Summary
 
-We started our last class with a brief discussion of the [UNO Counseling and Psychological Services](http://bit.ly/unocapsinfo) resource on campus.
+We started our last class with a brief discussion of the [UNO Counseling and Psychological Services](https://www.unomaha.edu/counseling-and-psychological-services/index.php) resource on campus.
 
 ----
 
