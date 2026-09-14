@@ -13,7 +13,7 @@ If this is the case, go back to the code specifications and/or watch the associa
 
 ----
 
-Some quick takeaways from the [highlights.py](highlights.py) file (not covered in class) are:
+Some quick takeaways from the [highlights.py](highlights.py) file are:
 
 * You can use escape sequences like `\"` and `\'` to print double quotes inside double-quoted string literals and single quotes inside single-quoted string literals, respectively.
 * The `len()` function will tell you how many characters are in a string.
@@ -45,7 +45,7 @@ For the most part, the question discussions went as expected.
 
 [Q6.py](Q6.py) brought to our attention the fact that using an f-string specifier like `f'{value:f}'` will output 6 digits after the decimal, as well as the way that the expression `11 // 2 *  5.6 // 5` is evaluated from left-to-right.  This is a great expression to put into a small program in Thonny and step through the debugger. Notice the way that the integer floored division of `11 // 2` produces an integer result, but when you get to `28.0 // 5` after the implicit promotion of `5 * 5.6` that *that* floored division generates a floating point result. We've talked about this before, but it's interesting to notice it when it happens.
 
-[Q7.py](Q7.py) introduced us to the fact that you can do calculations or call functions in your f-strings, though it's not advisable to do so because it makes your code harder to read, debug, and maintain.  The code in Q7.py has a better suggestion for how to handle that.
+[Q7.py](Q7.py) (not covered in class) introduces us to the fact that you can do calculations or call functions in your f-strings, though it's not advisable to do so because it makes your code harder to read, debug, and maintain.  The code in Q7.py has a better suggestion for how to handle that.
 
 Lastly, [Q8.py](Q8.py) showed us an example of the `ValueError` mentioned above, where a floating point result is attempted to be forced into a `{x*y:d}` placeholder in an f-string. 
 
